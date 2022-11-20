@@ -1,0 +1,305 @@
+/* ********************************************************** */
+/*                      BIG SCREEN TOPBAR                     */
+/* ********************************************************** */
+.main-topbar {
+    /* border: 2px solid rebeccapurple; */
+    background-color: rgb(12, 35, 30);
+    height: 3.8em;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    /* opacity: .4; */
+}
+.left {
+    /* outline: 1px solid red; */
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+ }
+.gob-logo {
+    width: 7em;
+    padding-top: 6px;
+}
+.right {
+    /* background-color: #33c531; */
+    /* border: 1px solid blue; */
+    margin-right: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+.up {
+    /* border: 1px solid aqua; */
+    height: 100%;
+    display: flex;
+}
+.linkup {
+    /* background-color: #1726b3; */
+    /* border: 1px solid red; */
+    padding: 18px 15px 18px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms;
+}
+.linkup:hover {
+    background-color: #304440;
+}
+.lup {
+    /* background-color: #2a95c3; */
+    margin-top: 10px;
+}
+.lup_ {
+    width: 1.9em;
+}
+.up- {
+    transition: 300ms;
+}
+.linkup:hover p  {
+    color: #C0B392;
+}
+/* ********************************************************** */
+/*                   BIG SCREEN RIBBON MENU                   */
+/* ********************************************************** */
+.ribbon {
+    /* border: 2px solid rgb(255, 255, 255); */
+    background-color: #13322B;
+    margin-top: 20px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    /* opacity: .3; */
+}
+.left-wrapper {
+    /* background-color: blue; */
+    font-size: 1.24rem;
+    width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.right-wrapper {
+    /* border: 1px solid blue; */
+    display: flex;
+
+}
+.right-wrapper_ {
+    /* background-color: #33c531; */
+    width: 100%;
+    margin-right: 110px;
+    display: flex;
+    align-items: flex-end;
+}
+.block-wrapper {
+    /* background-color: burlywood; */
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 100%;
+    display: flex;
+    transition: 500ms;
+    /* flex: 1; */
+}
+.block-wrapper:hover {
+    background-color: #36514B;
+}
+.block0, .block1, .block2, .block3, .block4 {
+    /* border: 1px solid red; */
+    /* background-color: rgb(171, 194, 24); */
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+.home, .home_ {
+    /* background-color: #D95A8D; */
+    width: 1.5em;
+    transition: 300ms;
+}
+.block-wrapper:hover .home {
+    opacity: 0;
+}
+.home_ {
+    position: absolute;
+    margin-right: 43px;
+    opacity: 0;
+}
+.block-wrapper:hover .home_ {
+    opacity: 1;
+}
+.icon-overlap {
+    position: absolute;
+    opacity: 0;
+    transition: 300ms;
+}
+.block-wrapper:hover .icon-overlap {
+    opacity: 1;
+}
+.icon1, .icon2, .icon3, .icon4  {
+    width: 1.35em;
+    margin-right: 2px;
+}
+.icon3  {
+    width: 1.1em;
+}
+.icon-opacity{
+    transition: 300ms;
+}
+.block-wrapper:hover .icon-opacity {
+    opacity: 0;
+}
+.lowtitles {
+    transition: 300ms;
+}
+.block-wrapper:hover .lowtitles {
+    color: #afa385;
+}
+/* ********************************************************** */
+/*                       FOOTER SETTINGS                      */
+/* ********************************************************** */
+.footer {
+    background-color: #13322B;
+    /* border-bottom: 1px solid rgb(7, 21, 18); */
+    min-height: auto;
+    margin-top: auto; 
+}
+.div-footer-info {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1.3fr;
+}
+.info-gob-wrap {
+    /* background-color: #FE935F;
+    outline: 2px solid #242222; */
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: flex-start;   
+}
+.info-gob {
+    /* background-color: #33c531;
+    border: 1px solid white; */
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.logo-wrapper {
+    /* outline: 5px solid black; */
+    padding-right: 20px;
+}
+.footer-logo {
+    /* outline: 1px solid blue; */
+    width: 15.2em;
+    margin-top: 30px;
+    margin-left: 95px;
+}
+.div-footer-img {
+    /* outline: 1px solid red; */
+    height: 50px;
+    background: url(../images/plecas.svg);
+}
+.info-rotulo, .siguenos {
+    font-size: 18px;
+    line-height: 17px;
+    padding-bottom: 25px;
+}
+.siguenos {
+    padding-top: 20px;
+}
+.infotxt {
+    font-size: 14px;
+    line-height: 22px;
+}
+.infotx {
+    font-size: 14px;
+    padding-bottom: 22px;
+}
+.infotx-mod {
+    color: gray;
+}
+.more {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: initial;
+}
+.social-wrap {
+    /* background-color: #2837d7; */
+    display: flex;
+}
+.div-social-icon {
+    padding-left: 15px;
+    padding-left: 15px;
+}
+.social-icon1 {
+    width: .65em;
+}
+.social-icon2 {
+    width: 1.4em;
+}
+.arrow-head {
+    font-size: 10px;
+}
+/* ********************************************************** */
+/*                    SCREEN MEDIA QUERYS                     */
+/* ********************************************************** */
+@media only screen
+and (min-width : 0px) 
+and (max-width : 800px) {
+    .main-topbar {
+        display: none;
+    }
+    .ribbon {
+        display: none;
+    }
+    .div-footer-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-gob-wrap {
+        /* outline: 2px solid red; */
+        padding: 0;
+        display: block;
+        
+    }
+    .logo-wrapper {
+        /* outline: 5px solid black; */
+        display: flex;
+        flex: 1;
+    }
+    .footer-logo {
+        /* background-color: aqua; */
+        width: 100%;
+        padding: 40px;
+        margin: 0;
+    }
+    .info-gob {
+        padding: 0 0 35px 25px;
+    }
+    .div-footer-img {
+        height: 35px;
+        background: url(../images/plecas.svg) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media only screen
+and (min-width : 801px) 
+and (max-width : 920px) {
+    .left {
+    width: 200px;
+    }   
+    .left-wrapper {
+        width: 130px;
+    }
+    .right {
+        margin-right: 50px;
+    }
+    .right-wrapper_ {
+        margin-right: 40px;
+    }
+}

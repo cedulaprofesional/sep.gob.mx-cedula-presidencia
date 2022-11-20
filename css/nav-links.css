@@ -1,0 +1,111 @@
+
+/* ********************************************************** */
+/*                   NAVIGATION LINK MODULE                   */
+/* ********************************************************** */
+.navigation-links-section {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+.navigation-links-section- {
+    /* border: 1px solid red; */
+    margin-bottom: 40px;
+}
+.navigation-links-wrapper {
+    /* outline: 1px solid blue; */
+    max-width: 85%;
+    display: flex;
+    flex: 1;
+}
+.navigation-links-wrapper_ {
+    /* outline: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.home1 {
+    width: 1.45em;
+}
+.arrowhead {
+    margin-left: 8px;
+    width: .63rem;
+}
+.txt-navigation-links {
+    font-size: 18px;
+    color: #414446;
+    margin-left: 6px;
+}
+.cedula-txt {
+    font-weight: 600;
+}
+/* ********************************************************** */
+/*                    SCREEN MEDIA QUERYS                     */
+/* ********************************************************** */
+@media only screen
+and (min-width : 801px) 
+and (max-width : 1360px) {
+    .navigation-links-wrapper {
+        max-width: 100%;
+        padding-left: 105px;
+    }
+}
+
+@media only screen
+and (min-width : 521px) 
+and (max-width : 800px) {
+    .navigation-links-wrapper {
+        max-width: 97%;
+    }
+}
+
+@media only screen
+and (min-width : 360px) 
+and (max-width : 520px) {
+    .home1 {
+        width: 1.35em;
+    }
+    .navigation-links-wrapper {
+        max-width: 96%;
+    }
+    .navigation-links-wrapper-dif {
+        flex-direction: row;
+    }
+    .txt-navigation-links {
+        font-size: 16px;
+    } 
+}
+@media only screen
+and (min-width : 151px) 
+and (max-width : 359px) {
+    .navigation-links-wrapper {
+        max-width: 96%;
+    }
+    .home1 {
+        width: 1.3em;
+    }
+    .navigation-links-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .txt-navigation-links {
+        font-size: 16px;
+    } 
+}
+@media only screen
+and (min-width : 0px) 
+and (max-width : 150px) {
+    .navigation-links-wrapper {
+        max-width: 96%;
+    }
+    .home1 {
+        width: 1.2em;
+    }
+    .navigation-links-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .txt-navigation-links {
+        font-size: 13px;
+    } 
+}
+

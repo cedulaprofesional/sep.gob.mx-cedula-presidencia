@@ -1,0 +1,89 @@
+
+/* ********************************************************** */
+/* ********************************************************** */
+/*                     MIDDLE BODY SECTION                    */
+/* ********************************************************** */
+/* ********************************************************** */
+.mid-section {
+    /* outline: 2px solid red; */
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.title-txt {
+    /* border: 1px solid red; */
+    padding-left: 105px;
+    color: #414446;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 51px;
+}
+.tit-mod {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 28px;
+    line-height: 39px;
+}
+.mid-div {
+    /* background-color: #2a95c3; */
+    /* border: 2px solid rgb(8, 0, 255); */
+    margin-top: 42px;
+    display: flex;
+    flex-direction: column;
+}
+.mid-txt1, .mid-txt2 {
+    /* background-color: #2837d7; */
+    /* border: 1px solid red; */
+    color: #414446;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: justify;
+    padding-left: 105px;
+    width: 62vw;
+}
+.mid-txt1 + p {
+    padding-top: 15px;
+}
+/* ********************************************************** */
+/*                    SCREEN MEDIA QUERYS                     */
+/* ********************************************************** */
+@media only screen
+and (min-width : 0px) 
+and (max-width : 520px) {
+    .mid-section {
+        margin-top: 60px;
+        margin-bottom: 20px;    
+    }
+    .title {
+        font-size: 4.9vw;
+    }
+    .mid-txt1, .mid-txt2 {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+    .title-txt {
+    padding-left: 10px;
+    padding-right: 25px;
+    }
+}
+
+@media only screen
+and (min-width : 521px) 
+and (max-width : 800px) {
+    .mid-section {
+        margin-top: 60px;
+        margin-bottom: 20px;    
+    }
+    .title {
+        font-size: 3.7vw;
+    }
+    .title-txt {
+        padding-left: 10px;
+        padding-right: 25px;
+        }
+    .mid-txt1, .mid-txt2 {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+}
